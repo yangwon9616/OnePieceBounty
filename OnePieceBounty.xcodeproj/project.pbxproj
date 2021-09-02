@@ -13,10 +13,12 @@
 		52E94AE026DF00C10092D02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E94ADE26DF00C10092D02B /* Main.storyboard */; };
 		52E94AE226DF00C20092D02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E94AE126DF00C20092D02B /* Assets.xcassets */; };
 		52E94AE526DF00C20092D02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E94AE326DF00C20092D02B /* LaunchScreen.storyboard */; };
+		52E94AED26DF70820092D02B /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E94AEC26DF70820092D02B /* BountyViewController.swift */; };
+		52E94AEF26E0ABA80092D02B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E94AEE26E0ABA80092D02B /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52E94AD526DF00C10092D02B /* FastCampMyAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCampMyAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E94AD526DF00C10092D02B /* OnePieceBounty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePieceBounty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E94AD826DF00C10092D02B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E94ADA26DF00C10092D02B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52E94ADC26DF00C10092D02B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		52E94AE126DF00C20092D02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E94AE426DF00C20092D02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E94AE626DF00C20092D02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E94AEC26DF70820092D02B /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
+		52E94AEE26E0ABA80092D02B /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		52E94ACC26DF00C10092D02B = {
 			isa = PBXGroup;
 			children = (
-				52E94AD726DF00C10092D02B /* FastCampMyAlbum */,
+				52E94AD726DF00C10092D02B /* OnePieceBounty */,
 				52E94AD626DF00C10092D02B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +52,12 @@
 		52E94AD626DF00C10092D02B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52E94AD526DF00C10092D02B /* FastCampMyAlbum.app */,
+				52E94AD526DF00C10092D02B /* OnePieceBounty.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52E94AD726DF00C10092D02B /* FastCampMyAlbum */ = {
+		52E94AD726DF00C10092D02B /* OnePieceBounty */ = {
 			isa = PBXGroup;
 			children = (
 				52E94AD826DF00C10092D02B /* AppDelegate.swift */,
@@ -63,16 +67,18 @@
 				52E94AE126DF00C20092D02B /* Assets.xcassets */,
 				52E94AE326DF00C20092D02B /* LaunchScreen.storyboard */,
 				52E94AE626DF00C20092D02B /* Info.plist */,
+				52E94AEC26DF70820092D02B /* BountyViewController.swift */,
+				52E94AEE26E0ABA80092D02B /* ModalViewController.swift */,
 			);
-			path = FastCampMyAlbum;
+			path = OnePieceBounty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52E94AD426DF00C10092D02B /* FastCampMyAlbum */ = {
+		52E94AD426DF00C10092D02B /* OnePieceBounty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52E94AE926DF00C20092D02B /* Build configuration list for PBXNativeTarget "FastCampMyAlbum" */;
+			buildConfigurationList = 52E94AE926DF00C20092D02B /* Build configuration list for PBXNativeTarget "OnePieceBounty" */;
 			buildPhases = (
 				52E94AD126DF00C10092D02B /* Sources */,
 				52E94AD226DF00C10092D02B /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = FastCampMyAlbum;
+			name = OnePieceBounty;
 			productName = FastCampMyAlbum;
-			productReference = 52E94AD526DF00C10092D02B /* FastCampMyAlbum.app */;
+			productReference = 52E94AD526DF00C10092D02B /* OnePieceBounty.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52E94AD026DF00C10092D02B /* Build configuration list for PBXProject "FastCampMyAlbum" */;
+			buildConfigurationList = 52E94AD026DF00C10092D02B /* Build configuration list for PBXProject "OnePieceBounty" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52E94AD426DF00C10092D02B /* FastCampMyAlbum */,
+				52E94AD426DF00C10092D02B /* OnePieceBounty */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E94ADD26DF00C10092D02B /* ViewController.swift in Sources */,
+				52E94AED26DF70820092D02B /* BountyViewController.swift in Sources */,
+				52E94AEF26E0ABA80092D02B /* ModalViewController.swift in Sources */,
 				52E94AD926DF00C10092D02B /* AppDelegate.swift in Sources */,
 				52E94ADB26DF00C10092D02B /* SceneDelegate.swift in Sources */,
 			);
@@ -288,12 +296,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z266W6SNQH;
-				INFOPLIST_FILE = FastCampMyAlbum/Info.plist;
+				INFOPLIST_FILE = OnePieceBounty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = FastCampMyAlbum.FastCampMyAlbum;
+				PRODUCT_BUNDLE_IDENTIFIER = OnePieceBounty.OnePieceBounty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +315,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z266W6SNQH;
-				INFOPLIST_FILE = FastCampMyAlbum/Info.plist;
+				INFOPLIST_FILE = OnePieceBounty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = FastCampMyAlbum.FastCampMyAlbum;
+				PRODUCT_BUNDLE_IDENTIFIER = OnePieceBounty.OnePieceBounty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52E94AD026DF00C10092D02B /* Build configuration list for PBXProject "FastCampMyAlbum" */ = {
+		52E94AD026DF00C10092D02B /* Build configuration list for PBXProject "OnePieceBounty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52E94AE726DF00C20092D02B /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52E94AE926DF00C20092D02B /* Build configuration list for PBXNativeTarget "FastCampMyAlbum" */ = {
+		52E94AE926DF00C20092D02B /* Build configuration list for PBXNativeTarget "OnePieceBounty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52E94AEA26DF00C20092D02B /* Debug */,
