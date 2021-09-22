@@ -12,6 +12,16 @@ import UIKit
 ///class는 잘 모름 
 
 // 기본 VC에다가 TVDS, TVD를 추가했음 뒤에 두 개는 필수로 들어가야 함
+
+
+let ulrSrring = "https://itumes.apple.com.search?media=music&entiry=song&term=Gdragon"
+
+
+
+
+
+
+
 class BountyViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
