@@ -115,10 +115,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYD-xt-otN">
-                                <rect key="frame" x="159.5" y="308" width="95" height="152"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nYD-xt-otN">
+                                <rect key="frame" x="159.5" y="258" width="95" height="152"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="152" id="Exl-7u-gEz"/>
                                     <constraint firstAttribute="width" secondItem="nYD-xt-otN" secondAttribute="height" multiplier="5:8" id="Xji-71-oqZ"/>
+                                    <constraint firstAttribute="width" constant="95" id="ZfH-3x-RLV"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wr-h0-PxO">

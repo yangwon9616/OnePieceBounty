@@ -1,6 +1,10 @@
 
 import UIKit
 
+
+// dispatchqueue 14 - 3 적용 강의. velog에 업로드
+// dispatchqueue 실행 방법 작용
+// ids
 // 내가 모르는 것 정리
 // overriide 개념
 // prepare 사용법
@@ -9,6 +13,22 @@ import UIKit
 
 // 기본 VC에다가 TVDS, TVD를 추가했음 뒤에 두 개는 필수로 들어가야 함
 class BountyViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    
+    
+    
+    
+    // MVVM
+    
+    // Model
+    // - BountyInfo
+    // > BountyInfo 만들자
+    
+    // View
+    // ListCell
+    // > ListCell에 필요한 정보를 ViewModel에게 받자
+    
+    // ViewModel
     
     // 들어갈 데이터들임. 이걸 json 형태로 정리했다면 더 편하게 사용할 수 있었을 것
     // let nameBounty = [{brook : 33000000}, chopper : 50] 이런식으로 했다면 데이터를 추가하기도, 제거하기도 더 편리했을 것
@@ -22,6 +42,7 @@ class BountyViewController: UIViewController, UITableViewDataSource, UITableView
     //override 뭔지 모름
     //prepare는 화면을 전달할 때 뭔가를 준비한다는 의미
     //여기서는 name,bounty를 ModalViewCo에 전달하기 위해 사용함
+    //POG에선 필요 없음
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             let vc = segue.destination as? ModalViewController
